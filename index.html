@@ -696,30 +696,30 @@
                 <form action="mailto:aadi@inexpert.dev" class="contact-form grid">
                     <div class="contact-inputs grid">
                         <div class="contact-content">
-                            <label for="" class="contact-label">Your Name</label>
-                            <input type="text" class="contact-input" placeholder="Aadi Shah">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" name="name" class="contact-input" placeholder="Aadi Shah">
                         </div>
                         <div class="contact-content">
-                            <label for="" class="contact-label">Your Email</label>
-                            <input type="email" class="contact-input" placeholder="aadi@inexpert.dev">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" name="email" class="contact-input" placeholder="aadi@inexpert.dev">
                         </div>
                     </div>
                     <div class="grid">
                         <div class="contact-content">
                             <label for="" class="contact-label">Subject</label>
-                            <input type="text" class="contact-input" placeholder="Hello!">
+                            <input type="text" name="subject" class="contact-input" placeholder="Hello!">
                         </div>
                         <div class="contact-content">
                             <label for="" class="contact-label">Message</label>
-                            <textarea style="resize: none;" rows="5" class="contact-input" placeholder="This is a message."></textarea>
+                            <textarea style="resize: none;" rows="5" name="body" class="contact-input" placeholder="This is a message."></textarea>
                         </div>
                     </div>
+                    <div class="contact-button">
+                        <a type="submit" class="button button-flex">
+                            Send Message <i class="fab fa-telegram-plane button-icon"></i>
+                        </a>
+                    </div>
                 </form>
-                <div class="contact-button">
-                    <a href="#" class="button button-flex">
-                        Send Message <i class="fab fa-telegram-plane button-icon"></i>
-                    </a>
-                </div>
             </div>
         </section>
     </main>
