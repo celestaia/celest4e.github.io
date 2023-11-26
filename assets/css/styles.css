@@ -499,46 +499,6 @@ img {
   background-color: var(--first-color);
 }
 
-.skills-container .skills-html {
-  width: 90%;
-}
-
-.skills-container .skills-css {
-  width: 90%;
-}
-
-.skills-container .skills-js {
-  width: 80%;
-}
-
-.skills-container .skills-ts {
-  width: 60%;
-}
-
-.skills-container .skills-java {
-  width: 80%;
-}
-
-.skills-container .skills-python {
-  width: 80%;
-}
-
-.skills-container .skills-cpp {
-  width: 50%;
-}
-
-.skills-container .skills-r {
-  width: 60%;
-}
-
-.skills-container .skills-matlab {
-  width: 30%;
-}
-
-.skills-container .skills-tensorflow {
-  width: 40%;
-}
-
 /* QUALIFICATION */
 .qualification-tabs {
   display: flex;
